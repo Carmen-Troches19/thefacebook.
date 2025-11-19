@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <p style="padding-left: 10px;"> Correo: &nbsp;&nbsp;<a href="#">tro241985@uvg.edu.gt</a></p>
                         <p style="padding-left: 10px;"> Telefono: &nbsp;&nbsp;&nbsp;+502&nbsp; 36024130</p>
                         <p style="padding-left: 10px;"> Universidad: &nbsp;&nbsp;Universidad del Valle</p>
-                        <p style="padding-left: 10px;"> Rol: &nbsp;&nbsp;Desarrollador</p> 
+                        <p style="padding-left: 10px;"> Rol: &nbsp;&nbsp;Desarrolladora</p> 
                     </div>
                 </div>
 

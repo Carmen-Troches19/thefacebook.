@@ -101,14 +101,14 @@ if (!isset($_SESSION['user_id'])) {
                     <div class="smallbox">
                         <div class="title">Connection</div>
                         <div class="muted">
-                            You are in a relationship with Carmen Victoria Troches Lopez.
+                            You are in a relationship with Isaias Troches Lopez.
                         </div>
                     </div>
 
                     <div class="smallbox">
                         <div class="title">Mutual Friends</div>
                         <div class="muted">
-                            You have 19 friends in common with Carmen Victoria Troches Lopez.
+                            You have 19 friends in common with Isaias Troches Lopez.
                         </div>
                     </div>
 
@@ -130,7 +130,6 @@ if (!isset($_SESSION['user_id'])) {
 
                 </div>
 
-                <!-- COLUMNA INFORMACIÓN -->
                 <div class="info-column">
                     <div class="info">
 
@@ -147,20 +146,20 @@ if (!isset($_SESSION['user_id'])) {
 
                             <div class="label">Basic Info:</div>
                             <div class="value">
-                                <div><strong>School:</strong> Puget Sound '09</div>
+                                <div><strong>School:</strong> Universidad del Valle de Guatemala</div>
                                 <div><strong>Status:</strong> Student</div>
                                 <div><strong>Sex:</strong> Female</div>
-                                <div><strong>Residence:</strong> Solola</div>
-                                <div><strong>Birthday:</strong> 08/10/2001</div>
-                                <div><strong>Home Town:</strong> Caserío Xolbé</div>
+                                <div><strong>Residence:</strong> Quetzaltenango</div>
+                                <div><strong>Birthday:</strong> 07/29/2006</div>
+                                <div><strong>Home Town:</strong> Las 7 Esquinas</div>
                                 <div><strong>High School:</strong> UVG</div>
                             </div>
 
                             <div class="label">Contact Info:</div>
                             <div class="value">
-                                <div><strong>Email:</strong> dele241921@uvg.edu.gt</div>
-                                <div><strong>Screenname:</strong> DoctaBu</div>
-                                <div><strong>Mobile:</strong> 4598-5144</div>
+                                <div><strong>Email:</strong> tro241985@uvg.edu.gt</div>
+                                <div><strong>Screenname:</strong> CarmenVTLopez</div>
+                                <div><strong>Mobile:</strong> 36024130</div>
                             </div>
 
                             <div class="label">Personal Info:</div>
@@ -173,7 +172,7 @@ if (!isset($_SESSION['user_id'])) {
                             <div class="label">Bio:</div>
                             <div class="value">
                                 <div>
-                                    I'm a computer scientist with dreams of living a peaceful life.
+                                    I am a computer scientist with the dream of living off my dreams.
                                 </div>
                             </div>
 
