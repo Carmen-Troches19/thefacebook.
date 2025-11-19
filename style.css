@@ -18,7 +18,7 @@ body {
 
 .topbar {
 	position: relative;
-	background-color: #2d5297;
+	background-color: #4b7fd6;
 	color: #fff;
 	padding: 6px 18px;
 	display: flex;
@@ -72,7 +72,7 @@ body {
 .leftcol { 
 	width: 190px; 
 	padding: 10px; 
-	border: 2px dotted #2d5297; 
+	border: 2px dotted #4b7fd6; 
 }
 
 .leftcol .box { 
@@ -83,14 +83,14 @@ body {
 
 .mainbox { 
 	flex:1; 
-	border:2px solid #2d5297; 
+	border:2px solid #4b7fd6; 
 	padding:0; 
 	background:#fff; 
 	max-width:760px;
 }
 
 .mainbox .header { 
-	background:#31599a; 
+	background:#7aa9ee; 
 	color:#fff; 
 	padding:10px 12px; 
 	font-weight:bold; 
@@ -102,7 +102,7 @@ body {
 
 .btn {  
 	background-color:#ffffff;
-	color:#31599a;
+	color:#7aa9ee;
 	padding:6px 12px; 
 	display:inline-block; 
 	text-decoration:none; 
@@ -213,7 +213,7 @@ body {
 
 .picture-box { 
 	background: #fff;
-	border: 2px solid #31599a;
+	border: 2px solid #7aa9ee;
 	padding: 0;
 	text-align: center;
 	
@@ -237,12 +237,12 @@ body {
 	padding: 8px 12px; 
 	display: block; 
 	margin-bottom: 0px; 
-	border-color: #31599a;
+	border-color: #7aa9ee;
 }
 
 .secondary { 
 	color: #154a9a; 
-	border: 2px solid #31599a; 
+	border: 2px solid #7aa9ee; 
 	margin-bottom: 0px;
 }
 
@@ -300,12 +300,7 @@ body {
 	margin:6px 0;
 }
 
-.intro { 
-	color:#666; 
-	margin:12px 0;
-}
-
-.about-title { 
+.info-title {
 	font-size:24px; 
 	font-weight:bold; 
 	margin:16px 0 8px 0;

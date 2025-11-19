@@ -8,9 +8,9 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 $profile = [
-    'nombre' => 'Danilo Isaac',
-    'member_since' => 'August 10, 2005',
-    'last_update' => 'July 19, 2005',
+    'nombre' => 'Carmen Victoria Troches Lopez',
+    'member_since' => 'August 09, 2006',
+    'last_update' => 'September 19, 2006',
     'school' => "Puget Sound '09",
     'status' => 'Student',
     'sex' => 'Male',
@@ -40,7 +40,7 @@ $profile = [
 <div class="page">
     <aside class="leftcol">
         <div class="searchbox">
-            <form><input class="search-input" type="text">  <span>quick search </span>&nbsp;&nbsp;<button class="btn" type="button" style="color:white; background-color: #31599a; border-color: #31599a;">go</button></form>
+            <form><input class="search-input" type="text">  <span>quick search </span>&nbsp;&nbsp;<button class="btn" type="button" style="color:white; background-color: #7aa9ee; border-color: #7aa9ee;">go</button></form>
         </div>
         <div class="box">
             <strong>My Account</strong>

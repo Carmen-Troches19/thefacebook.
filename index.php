@@ -40,15 +40,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_type']) && $_POST
             $login_error = ' El dominio "' . htmlspecialchars($domain) . '" no es reconocido. Usa @uvg.edu.gt';
         }
     } else {
-   
         $stmt = $conn->prepare("SELECT id_usuario, nombre, email, password, estatus FROM usuarios WHERE email = ?");
         $stmt->bind_param("s", $email);
         $stmt->execute();
         $result = $stmt->get_result();
         if ($result->num_rows > 0) {
             $user = $result->fetch_assoc();
+            
             if ($user['password'] == $password) {
-                
                 session_regenerate_id(true);
                 $_SESSION['user_id'] = $user['id_usuario'];
                 $_SESSION['user_name'] = $user['nombre'];
@@ -83,7 +82,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_type']) && $_POST
     <div class="page">
         <aside class="leftcol">
             <div class="box">
-                <?php if (!empty($_SESSION['flash_success'])) { echo '<div id="flash-success" class="message-success message-inline">' . htmlspecialchars($_SESSION['flash_success']) . '</div>'; unset($_SESSION['flash_success']); } ?>
                 <form method="POST" action="index.php" onsubmit="return validarEmailUniversitario(this)">
                     <input type="hidden" name="form_type" value="login">
                     <label for="email">Email:</label>
@@ -91,8 +89,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_type']) && $_POST
                     <label for="password">Password:</label>
                     <input id="password" type="password" name="password" required>
                     <div style="margin-top:8px;">
-                        <button class="btn" style="color:white; background-color: #31599a; border-color: #31599a;">login</button>
-                        <a class="btn" href="registrarse.php" style="color:white; background-color: #31599a; border-color: #31599a;">register</a>
+                        <button class="btn" style="color:white; background-color: #7aa9ee; border-color: #7aa9ee;">login</button>
+                        <a class="btn" href="registrarse.php" style="color:white; background-color: #7aa9ee; border-color: #7aa9ee;">register</a>
                     </div>
                     <div id="login-msg" class="message-error<?php if(!empty($login_error)) echo ' message-inline'; ?>"><?php echo htmlspecialchars($login_error); ?></div>
                 </form>
@@ -115,8 +113,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_type']) && $_POST
                     </ul>
                     <p>To get started, click below to register. If you have already registered, you can log in.</p>
                     <div style="text-align:center;margin-top:12px;">
-                        <a class="btn" href="registrarse.php" style="color:white; background-color: #31599a; border-color: #31599a;">Register</a>
-                        <a class="btn" href="index.php" style="color:white; background-color: #31599a; border-color: #31599a;">Login</a>
+                        <a class="btn" href="registrarse.php" style="color:white; background-color: #7aa9ee; border-color: #7aa9ee;">Register</a>
+                        <a class="btn" href="index.php" style="color:white; background-color: #7aa9ee; border-color: #7aa9ee;">Login</a>
                     </div>
                 </div>
             </div>

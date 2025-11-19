@@ -23,14 +23,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Contacto-TheFacebook</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
     <div class="topbar">
         <img src="imagenes/navperfil.jpg" class="banner" alt="banner" >
-        <div class="topnav"><div class="logo">[ thefacebook ]</div><a href="index.php">home</a> <a href="contacto.php">contact</a></div>
+        <div class="topnav"><div class="logo">[ thefacebook ]</div><a href="index.php">home</a> <a href="contacto.php">Contacto</a></div>
     </div>
 
     <div class="page">
@@ -65,15 +65,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <img src="imagenes/foto.jpg" alt="Creator 2">
                             </div>
                             <div class="creator-info">
-                                <strong>Danilo de Leon</strong>
-                                <p>Full Stack</p>
+                                <strong>Victoria Troches López</strong>
+                                <p>Full Stack and UI/UX Designer</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div style="text-align:center;margin-top:18px;">
-                    <a class="btn" href="index.php " style="color:white; background-color: #31599a; border-color: #31599a;">Home</a>
+                    <a class="btn" href="index.php " style="color:white; background-color: #7aa9ee; border-color: #7aa9ee;">Home</a>
                 </div>
 
             </div>
