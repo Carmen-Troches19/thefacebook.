@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_type']) && $_POST
 <body>
     <div class="topbar">
         <img src="imagenes/navperfil.jpg" alt="banner" class="banner">
-        <div class="topnav"> <div class="logo">[ thefacebook ]</div><a href="index.php">login</a> <a href="registrarse.php">register</a> <a href="contacto.php">about</a></div>
+        <div class="topnav"> <div class="logo">[ thefacebook ]</div><a href="index.php">login</a> <a href="registrarse.php">register</a> <a href="#">about</a></div>
     </div>
 
     <div class="page">
